@@ -17,9 +17,15 @@ function port_scan() {
     nmap -sV $TARGET
 }
 
+function web_scan() {
+    echo "[*] Web Scanning..."
+    nmap --script=http-title,http-enum,banner -sV -p 80,443,8080 $TARGET
+}
+
 # MAIN
 echo "============================="
 echo "  RECON TOOL - $TARGET"
 echo "============================="
 ping_check
 port_scan
+web_scan
