@@ -1,4 +1,10 @@
 #!/bin/bash
+# ================================================
+# pingsweep.sh - Network Ping Sweep Tool
+# Author: Ayman Ahmed
+# Description: Scan entire subnet for live hosts
+# Usage: ./pingsweep.sh
+# ================================================
 echo "Scanning 192.168.184.0/24..."
 for i in {1..254}; do
     {
