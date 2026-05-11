@@ -1,4 +1,11 @@
 #!/bin/bash
+# ================================================
+# systemreport.sh - System Information Report
+# Author: Ayman Ahmed
+# Description: Collects system info and saves report
+# Usage: ./systemreport.sh
+# Output: ~/linux_practice/logs/report.txt
+# ================================================
 #hostname varible
 hostname=$(hostname)
 #user varaible
