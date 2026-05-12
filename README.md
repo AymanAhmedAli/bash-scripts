@@ -1,21 +1,34 @@
-# 🔧 Bash Scripts - Penetration Testing & Sysadmin Tools
+# 🔧 Bash Scripts — Pentesting & Sysadmin Tools
 
-A collection of Bash scripts for system administration and network reconnaissance.
-Built as part of my journey learning Linux and Penetration Testing.
+A collection of Bash scripts built during my journey learning 
+Linux, Network Security, and Penetration Testing.
 
-## 📋 Scripts
+## 🛠️ Scripts
 
 | Script | Description | Usage |
 |--------|-------------|-------|
-| recon.sh | Ping check + Port scan + Web scan | ./recon.sh <target-ip> |
-| pingsweep.sh | Scan entire subnet for live hosts | ./pingsweep.sh |
-| systemreport.sh | Full system information report | ./systemreport.sh |
-| full_check.sh | System + Network health check | ./full_check.sh |
+| recon.sh | Ping check + Port scan + Web scan | `./recon.sh <IP>` |
+| pingsweep.sh | Scan subnet for live hosts | `./pingsweep.sh` |
+| systemreport.sh | Full system information report | `./systemreport.sh` |
+| full_check.sh | System + Network health check | `./full_check.sh` |
 
-## 🛠️ Requirements
-- Linux / Ubuntu
-- nmap
-- bash
+## 🔴 Lab Work
+- **Metasploitable2**: Exploited vsftpd 2.3.4 backdoor (CVE-2011-2523)
+- **Bindshell**: Accessed root shell via port 1524 using netcat
+- **Tools Used**: Nmap, Metasploit, Netcat, Bash
+
+## 📚 Skills Demonstrated
+- Linux administration & scripting
+- Network reconnaissance with Nmap
+- Exploitation with Metasploit Framework
+- Bash automation & functions
+
+## ⚙️ Requirements
+- Linux / Ubuntu or Kali
+- nmap, bash, netcat
 
 ## 👤 Author
-Ayman Ahmed - IT Specialist | Pentesting Learner
+**Ayman Ahmed** — IT Specialist | Pentesting Learner  
+📍 Cairo, Egypt  
+🔗 [LinkedIn](https://www.linkedin.com/in/aymanahmedali/) | [TryHackMe](https://tryhackme.com/p/aymanahmed)
+
