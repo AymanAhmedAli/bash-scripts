@@ -1,0 +1,22 @@
+# Metasploitable2 Lab Notes
+
+## Target: 192.168.184.144
+## Attacker: Kali 192.168.184.145
+
+## Exploit 1: vsftpd 2.3.4 Backdoor
+- Port: 21
+- CVE: CVE-2011-2523
+- Tool: Metasploit
+- Module: exploit/unix/ftp/vsftpd_234_backdoor
+- Result: root shell via Meterpreter
+
+## Exploit 2: Bindshell
+- Port: 1524
+- Tool: netcat
+- Command: nc 192.168.184.144 1524
+- Result: root shell - no credentials needed!
+
+## Lessons Learned
+- Always run nmap first
+- Check for known CVEs on service versions
+- Some ports give direct root access
