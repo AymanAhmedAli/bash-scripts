@@ -26,3 +26,11 @@
 - CVE: CVE-2007-2447
 - Module: exploit/multi/samba/usermap_script
 - Result: root shell ✅
+
+## Exploit 4: MySQL No Password
+- Port: 3306
+- Tool: mysql --skip-ssl
+- Command: mysql --skip-ssl -h 192.168.184.144 -u root
+- Result: root access with no password ✅
+- Found: All databases including dvwa, owasp10
+- Users: root, guest — both with empty passwords!
