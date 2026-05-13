@@ -20,3 +20,9 @@
 - Always run nmap first
 - Check for known CVEs on service versions
 - Some ports give direct root access
+
+## Exploit 3: Samba usermap_script
+- Port: 139
+- CVE: CVE-2007-2447
+- Module: exploit/multi/samba/usermap_script
+- Result: root shell ✅
