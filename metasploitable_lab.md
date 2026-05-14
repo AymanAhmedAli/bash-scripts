@@ -34,3 +34,11 @@
 - Result: root access with no password ✅
 - Found: All databases including dvwa, owasp10
 - Users: root, guest — both with empty passwords!
+
+## 🏆 TryHackMe
+- **Blue** — Hacking Windows via EternalBlue ✅
+- **cat linux.txt** badge — Linux Competency ✅
+- **Active Directory Basics** ✅
+- **Metasploit: Introduction** ✅
+- **Defensive Security & SIEM** ✅
+- 15+ rooms completed
