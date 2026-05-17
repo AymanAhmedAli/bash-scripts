@@ -35,6 +35,12 @@
 - Found: All databases including dvwa, owasp10
 - Users: root, guest — both with empty passwords!
 
+## Exploit 5: UnrealIRCd 3.2.8.1 Backdoor
+- Port: 6667
+- CVE: CVE-2010-2075
+- Module: exploit/unix/irc/unreal_ircd_3281_backdoor
+- Result: root shell via Meterpreter ✅
+
 ## 🏆 TryHackMe
 - **Blue** — Hacking Windows via EternalBlue ✅
 - **cat linux.txt** badge — Linux Competency ✅
@@ -42,3 +48,5 @@
 - **Metasploit: Introduction** ✅
 - **Defensive Security & SIEM** ✅
 - 15+ rooms completed
+
+
