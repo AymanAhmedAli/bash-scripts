@@ -41,6 +41,16 @@
 - Module: exploit/unix/irc/unreal_ircd_3281_backdoor
 - Result: root shell via Meterpreter ✅
 
+## Password Cracking: John the Ripper
+- Tool: John the Ripper
+- Wordlist: rockyou.txt
+- Target: /etc/shadow from Metasploitable2
+- Cracked passwords:
+  - klog     : 123456789
+  - sys      : batman
+  - service  : service
+- Remaining 4 hashes not cracked (complex passwords)
+
 ## 🏆 TryHackMe
 - **Blue** — Hacking Windows via EternalBlue ✅
 - **cat linux.txt** badge — Linux Competency ✅
