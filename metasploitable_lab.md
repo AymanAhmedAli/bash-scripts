@@ -51,12 +51,21 @@
   - service  : service
 - Remaining 4 hashes not cracked (complex passwords)
 
+## Session 2 — Aug 31, 2026
+- New network setup: Bridged adapter
+- Kali IP: 172.26.156.155
+- Metasploitable IP: 172.26.154.66
+- Re-exploited vsftpd 2.3.4 successfully
+- Key lesson: LHOST must be Kali IP not Ubuntu IP
+- Cracked passwords: batman, 123456789, service
+
 ## 🏆 TryHackMe
 - **Blue** — Hacking Windows via EternalBlue ✅
 - **cat linux.txt** badge — Linux Competency ✅
 - **Active Directory Basics** ✅
 - **Metasploit: Introduction** ✅
 - **Defensive Security & SIEM** ✅
-- 15+ rooms completed
-
-
+- 30+ rooms completed
+- Platinum Rank 🏆
+- Blue badge — top 10%
+- 30+ day streak
