@@ -16,6 +16,8 @@ Linux, Network Security, and Penetration Testing.
 - Bindshell port 1524 via netcat ✅
 - Samba usermap_script (CVE-2007-2447) ✅
 - MySQL root access — no password ✅
+- UnrealIRCd backdoor (CVE-2010-2075) ✅
+- Password cracking with John the Ripper ✅
 - **Tools Used**: Nmap, Metasploit, Netcat, Bash
 
 ## 📚 Skills Demonstrated
@@ -23,6 +25,13 @@ Linux, Network Security, and Penetration Testing.
 - Network reconnaissance with Nmap
 - Exploitation with Metasploit Framework
 - Bash automation & functions
+- Penetration testing & vulnerability exploitation
+- Password cracking with John the Ripper
+- Security writeups & documentation
+
+## 📝 Security Writeups
+- [vsftpd 2.3.4 Analysis](vsftpd_writeup.md) — CVE-2011-2523
+- [Networking Security Notes](networking_notes.md)
 
 ## ⚙️ Requirements
 - Linux / Ubuntu or Kali
@@ -31,4 +40,4 @@ Linux, Network Security, and Penetration Testing.
 ## 👤 Author
 **Ayman Ahmed** — IT Specialist | Pentesting Learner  
 📍 Cairo, Egypt  
-🔗 [LinkedIn](https://www.linkedin.com/in/aymanahmedali/) | [TryHackMe](https://tryhackme.com/p/aymanahmed)
+🔗 [LinkedIn](https://www.linkedin.com/in/aymanahmedali/) | [TryHackMe](https://tryhackme.com/p/aymanahmed) TryHackMe — Platinum Rank 
