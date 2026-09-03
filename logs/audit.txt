@@ -1,0 +1,77 @@
+===== NETWORK AUDIT REPORT =====
+Date: Wed May 13 01:38:55 PM EEST 2026
+
+===== SYSTEM INFO =====
+Hostname: ayman
+User: ayman
+OS: Ubuntu 24.04
+Kernel: 6.17.0-23-generic
+RAM Total: 3.8Gi
+RAM Used : 1.4Gi
+Disk Usage: 33%
+
+===== TOOL CHECK =====
+nmap : INSTALLED
+ping : INSTALLED
+curl : INSTALLED
+
+===== NETWORK SCAN =====
+192.168.184.1 is UP
+192.168.184.2 is UP
+192.168.184.140 is UP
+192.168.184.144 is UP
+192.168.184.145 is UP
+
+===== WEB CHECK =====
+Checking 192.168.184.1
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-13 13:43 EEST
+Nmap scan report for 192.168.184.1
+Host is up (0.0014s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.56 seconds
+
+Checking 192.168.184.2
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-13 13:43 EEST
+Nmap scan report for _gateway (192.168.184.2)
+Host is up (0.00043s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.21 seconds
+
+Checking 192.168.184.140
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-13 13:43 EEST
+Nmap scan report for ayman (192.168.184.140)
+Host is up (0.00023s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+|_http-title: Apache2 Ubuntu Default Page: It works
+
+Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+
+Checking 192.168.184.144
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-13 13:43 EEST
+Nmap scan report for 192.168.184.144
+Host is up (0.0011s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+|_http-title: Metasploitable2 - Linux
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+
+Checking 192.168.184.145
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-13 13:43 EEST
+Nmap scan report for 192.168.184.145
+Host is up (0.0012s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
+
